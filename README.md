@@ -1,5 +1,5 @@
 # TCProgressBar
-***
 ## Screenshot
-![alt text][logo]
-[logo]: https://github.com/talthent/TCProgressBar/blob/master/screenshot.png "TCProgressBar"
+![alt text](https://github.com/talthent/TCProgressBar/blob/master/screenshot.png "TCProgressBar")
+
+[logo]:  "TCProgressBar"
