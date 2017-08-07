@@ -18,4 +18,4 @@ pod 'TCProgressBar', '~> 0.1.0'
 
 ## LICENSE
 
-TYMProgressBarView is available under the MIT license. See the LICENSE file for details.
+TCProgressBar is available under the MIT license. See the LICENSE file for details.
