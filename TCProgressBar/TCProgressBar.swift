@@ -92,7 +92,7 @@ import UIKit
         self.removeConstraints(self.progressConstraints)
         self.progressConstraints = [
             self.progress.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: self.outlineWidth + self.spacing),
-            self.progress.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: self.value, constant: -(self.outlineWidth * 2 + self.spacing * 2)),
+            self.progress.widthAnchor.constraint(greaterThanOrEqualTo: self.widthAnchor, multiplier: self.value, constant: -(self.outlineWidth * 2 + self.spacing * 2)),
             self.progress.topAnchor.constraint(equalTo: self.topAnchor, constant: self.outlineWidth + self.spacing),
             self.progress.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -(self.outlineWidth + self.spacing))
         ]
