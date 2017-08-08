@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.summary = "Simple and clean progress bar."
     s.requires_arc = true
 
-    s.version = "0.3"
+    s.version = "0.4"
 
     s.license = { :type => "MIT", :file => "LICENSE" }
 
