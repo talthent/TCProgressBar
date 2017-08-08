@@ -1,0 +1,6 @@
+framework module TCProgressBar {
+  umbrella header "TCProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

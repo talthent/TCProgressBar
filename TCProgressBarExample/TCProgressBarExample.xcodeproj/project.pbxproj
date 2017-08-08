@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1962B540864F63FFD1E13AEE /* Pods_TCProgressBarExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807AEB79FE812E1037457FD /* Pods_TCProgressBarExample.framework */; };
+		B9D0F1B61F3A58DF00C1D744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0F1B51F3A58DF00C1D744 /* AppDelegate.swift */; };
+		B9D0F1B81F3A58DF00C1D744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0F1B71F3A58DF00C1D744 /* ViewController.swift */; };
+		B9D0F1BB1F3A58DF00C1D744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D0F1B91F3A58DF00C1D744 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5F6266C97B1F3E6E088807 /* Pods-TCProgressBarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCProgressBarExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCProgressBarExample/Pods-TCProgressBarExample.debug.xcconfig"; sourceTree = "<group>"; };
+		78E26F42CE440E373BA1A01F /* Pods-TCProgressBarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCProgressBarExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCProgressBarExample/Pods-TCProgressBarExample.release.xcconfig"; sourceTree = "<group>"; };
+		B9D0F1B21F3A58DF00C1D744 /* TCProgressBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCProgressBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D0F1B51F3A58DF00C1D744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9D0F1B71F3A58DF00C1D744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9D0F1BA1F3A58DF00C1D744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9D0F1C11F3A58DF00C1D744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D807AEB79FE812E1037457FD /* Pods_TCProgressBarExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCProgressBarExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9D0F1AF1F3A58DF00C1D744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962B540864F63FFD1E13AEE /* Pods_TCProgressBarExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9D0F1A91F3A58DF00C1D744 = {
+			isa = PBXGroup;
+			children = (
+				B9D0F1B41F3A58DF00C1D744 /* TCProgressBarExample */,
+				B9D0F1B31F3A58DF00C1D744 /* Products */,
+				BADE1838566D919B1732686C /* Pods */,
+				EFA978B18270A6754D04723B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9D0F1B31F3A58DF00C1D744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9D0F1B21F3A58DF00C1D744 /* TCProgressBarExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D0F1B41F3A58DF00C1D744 /* TCProgressBarExample */ = {
+			isa = PBXGroup;
+			children = (
+				B9D0F1B51F3A58DF00C1D744 /* AppDelegate.swift */,
+				B9D0F1B71F3A58DF00C1D744 /* ViewController.swift */,
+				B9D0F1B91F3A58DF00C1D744 /* Main.storyboard */,
+				B9D0F1C11F3A58DF00C1D744 /* Info.plist */,
+			);
+			path = TCProgressBarExample;
+			sourceTree = "<group>";
+		};
+		BADE1838566D919B1732686C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A5F6266C97B1F3E6E088807 /* Pods-TCProgressBarExample.debug.xcconfig */,
+				78E26F42CE440E373BA1A01F /* Pods-TCProgressBarExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFA978B18270A6754D04723B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D807AEB79FE812E1037457FD /* Pods_TCProgressBarExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9D0F1B11F3A58DF00C1D744 /* TCProgressBarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D0F1C41F3A58DF00C1D744 /* Build configuration list for PBXNativeTarget "TCProgressBarExample" */;
+			buildPhases = (
+				17CDBD9A5FA01E2E4C680817 /* [CP] Check Pods Manifest.lock */,
+				B9D0F1AE1F3A58DF00C1D744 /* Sources */,
+				B9D0F1AF1F3A58DF00C1D744 /* Frameworks */,
+				B9D0F1B01F3A58DF00C1D744 /* Resources */,
+				E2785AD0268B8D5238E96066 /* [CP] Embed Pods Frameworks */,
+				45B4F9C269A6374D2EAC4E32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCProgressBarExample;
+			productName = TCProgressBarExample;
+			productReference = B9D0F1B21F3A58DF00C1D744 /* TCProgressBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9D0F1AA1F3A58DF00C1D744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tal Cohen";
+				TargetAttributes = {
+					B9D0F1B11F3A58DF00C1D744 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9P63DYGH75;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9D0F1AD1F3A58DF00C1D744 /* Build configuration list for PBXProject "TCProgressBarExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9D0F1A91F3A58DF00C1D744;
+			productRefGroup = B9D0F1B31F3A58DF00C1D744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9D0F1B11F3A58DF00C1D744 /* TCProgressBarExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9D0F1B01F3A58DF00C1D744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D0F1BB1F3A58DF00C1D744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17CDBD9A5FA01E2E4C680817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45B4F9C269A6374D2EAC4E32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCProgressBarExample/Pods-TCProgressBarExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2785AD0268B8D5238E96066 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCProgressBarExample/Pods-TCProgressBarExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D0F1AE1F3A58DF00C1D744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D0F1B81F3A58DF00C1D744 /* ViewController.swift in Sources */,
+				B9D0F1B61F3A58DF00C1D744 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9D0F1B91F3A58DF00C1D744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D0F1BA1F3A58DF00C1D744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9D0F1C21F3A58DF00C1D744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9D0F1C31F3A58DF00C1D744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9D0F1C51F3A58DF00C1D744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5F6266C97B1F3E6E088807 /* Pods-TCProgressBarExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9P63DYGH75;
+				INFOPLIST_FILE = TCProgressBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = talthent.TCProgressBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9D0F1C61F3A58DF00C1D744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E26F42CE440E373BA1A01F /* Pods-TCProgressBarExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9P63DYGH75;
+				INFOPLIST_FILE = TCProgressBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = talthent.TCProgressBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9D0F1AD1F3A58DF00C1D744 /* Build configuration list for PBXProject "TCProgressBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D0F1C21F3A58DF00C1D744 /* Debug */,
+				B9D0F1C31F3A58DF00C1D744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D0F1C41F3A58DF00C1D744 /* Build configuration list for PBXNativeTarget "TCProgressBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D0F1C51F3A58DF00C1D744 /* Debug */,
+				B9D0F1C61F3A58DF00C1D744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9D0F1AA1F3A58DF00C1D744 /* Project object */;
+}
