@@ -103,6 +103,10 @@ import UIKit
         self.progress.backgroundColor = self.progressColor
         self.layer.borderWidth = self.outlineWidth
         self.layer.borderColor = self.outlineColor.cgColor
+
+        UIView.animate(withDuration: 0.3) {
+            self.layoutIfNeeded()
+        }
     }
     
 }
