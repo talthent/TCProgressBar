@@ -8,36 +8,36 @@
 
 import UIKit
 
-@IBDesignable class TCProgressBar: UIView {
-
+@IBDesignable open class TCProgressBar: UIView {
+    
     private weak var progress : UIView!
     
     //MARK: - INSPECTABLE VARIABLES
-    @IBInspectable var roundedCorners : Bool = true {
+    @IBInspectable open var roundedCorners : Bool = true {
         didSet {
             self.updateUI()
         }
     }
     
-    @IBInspectable var spacing : CGFloat = 2 {
+    @IBInspectable open var spacing : CGFloat = 2 {
         didSet {
             self.updateUI()
         }
     }
     
-    @IBInspectable var outlineWidth : CGFloat = 2 {
+    @IBInspectable open var outlineWidth : CGFloat = 2 {
         didSet {
             self.updateUI()
         }
     }
     
-    @IBInspectable var outlineColor : UIColor = .white {
+    @IBInspectable open var outlineColor : UIColor = .white {
         didSet {
             self.updateUI()
         }
     }
     
-    @IBInspectable var progressColor : UIColor = .white {
+    @IBInspectable open var progressColor : UIColor = .white {
         didSet {
             self.updateUI()
         }
@@ -46,7 +46,7 @@ import UIKit
     /**
      Sets the value of the progress bar in a range of 0.0 to 1.0.
      */
-    @IBInspectable var value : CGFloat = 0 {
+    @IBInspectable open var value : CGFloat = 0 {
         didSet {
             self.updateUI()
         }
@@ -57,23 +57,23 @@ import UIKit
         fatalError("Should call init(frame:) or init(coder:)")
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.commonInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.commonInit()
     }
     
     //
-    override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         self.updateUI()
     }
-
-    private func commonInit() {
+    
+    internal func commonInit() {
         self.addProgress()
         self.updateUI()
     }
@@ -92,7 +92,7 @@ import UIKit
         self.removeConstraints(self.progressConstraints)
         self.progressConstraints = [
             self.progress.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: self.outlineWidth + self.spacing),
-            self.progress.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: self.value, constant: -(self.outlineWidth * 2 + self.spacing * 2)),
+            self.progress.widthAnchor.constraint(greaterThanOrEqualTo: self.widthAnchor, multiplier: self.value, constant: -(self.outlineWidth * 2 + self.spacing * 2)),
             self.progress.topAnchor.constraint(equalTo: self.topAnchor, constant: self.outlineWidth + self.spacing),
             self.progress.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -(self.outlineWidth + self.spacing))
         ]
@@ -103,10 +103,6 @@ import UIKit
         self.progress.backgroundColor = self.progressColor
         self.layer.borderWidth = self.outlineWidth
         self.layer.borderColor = self.outlineColor.cgColor
-
-        UIView.animate(withDuration: 0.3) {
-            self.layoutIfNeeded()
-        }
     }
     
 }
