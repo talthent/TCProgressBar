@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.summary = "Simple and clean progress bar."
     s.requires_arc = true
 
-    s.version = "0.2"
+    s.version = "0.3"
 
     s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
     s.source = { :git => "https://github.com/talthent/TCProgressBar.git", :tag => "#{s.version}"}
 
-    s.source_files = "**/*.{swift}"
+    s.source_files = "TCProgressBar/*.{swift}"
 
 end
