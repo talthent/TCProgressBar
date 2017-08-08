@@ -11,17 +11,11 @@ import TCProgressBar
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let progressBar = TCProgressBar(frame: .zero)
+    @IBOutlet weak var progressBar: TCProgressBar!
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.progressBar.value = 1
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
