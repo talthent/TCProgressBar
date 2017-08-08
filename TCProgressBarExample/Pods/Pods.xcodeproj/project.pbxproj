@@ -27,18 +27,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		108F0CE33FFB1C8DB69B06F8666EEC03 /* Pods-TCProgressBarExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TCProgressBarExample.modulemap"; sourceTree = "<group>"; };
+		108F0CE33FFB1C8DB69B06F8666EEC03 /* Pods-TCProgressBarExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TCProgressBarExample.modulemap"; sourceTree = "<group>"; };
 		19897C625A1E94653AEE98AB253A44D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7D5C4E179D216E1D061C8C4436AD18 /* TCProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCProgressBar-dummy.m"; sourceTree = "<group>"; };
 		1E43F357AABBF04CC9C109C76052C6AE /* Pods-TCProgressBarExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCProgressBarExample-resources.sh"; sourceTree = "<group>"; };
 		3A35C6DCF348B302F30418BC259A998B /* Pods-TCProgressBarExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCProgressBarExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F498B786A553BE951136C8897B614FB /* Pods-TCProgressBarExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCProgressBarExample-dummy.m"; sourceTree = "<group>"; };
-		536D03FC2F361C3AEF36781D13F0CC66 /* Pods_TCProgressBarExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCProgressBarExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D6923C0B476FD24F315AFA0D932556B /* TCProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		536D03FC2F361C3AEF36781D13F0CC66 /* Pods_TCProgressBarExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCProgressBarExample.framework; path = "Pods-TCProgressBarExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6923C0B476FD24F315AFA0D932556B /* TCProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TCProgressBar.framework; path = TCProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70D9AC83D5F48F3B5736E70A788F079C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89860BC210128BFE92FFAAF0F502A9A4 /* TCProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TCProgressBar.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89860BC210128BFE92FFAAF0F502A9A4 /* TCProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TCProgressBar.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C3E49C545DB9625D1C789ADF613193 /* Pods-TCProgressBarExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCProgressBarExample-umbrella.h"; sourceTree = "<group>"; };
 		9DE4AC70DB05D46C41E19F6F0886D7B3 /* Pods-TCProgressBarExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCProgressBarExample-frameworks.sh"; sourceTree = "<group>"; };
 		A8663369CFD0B8576BA9DA13D25AFF2E /* TCProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCProgressBar.swift; sourceTree = "<group>"; };
@@ -92,6 +92,7 @@
 				A8663369CFD0B8576BA9DA13D25AFF2E /* TCProgressBar.swift */,
 				B03B33C9ED59C92B691A0A641D3712E3 /* Support Files */,
 			);
+			name = TCProgressBar;
 			path = TCProgressBar;
 			sourceTree = "<group>";
 		};
@@ -421,7 +422,6 @@
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TCProgressBarExample/Pods-TCProgressBarExample.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";

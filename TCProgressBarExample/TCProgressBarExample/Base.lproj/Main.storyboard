@@ -21,18 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SM4-zK-D72" customClass="TCProgressBar" customModule="TCProgressBar">
-                                <rect key="frame" x="100" y="318" width="175" height="30"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ub1-bN-Kc0" customClass="TCProgressBar" customModule="TCProgressBar">
+                                <rect key="frame" x="67.5" y="120" width="240" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="JY3-bg-HXX"/>
-                                    <constraint firstAttribute="width" constant="175" id="YIf-sr-tt3"/>
+                                    <constraint firstAttribute="width" constant="240" id="NHx-Ha-yBc"/>
+                                    <constraint firstAttribute="height" constant="60" id="W9N-vB-jLK"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="spacing">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="outlineWidth">
-                                        <real key="value" value="4"/>
+                                        <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="outlineColor">
                                         <color key="value" red="0.62370735570000002" green="0.71858808289999998" blue="0.2380696138" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -40,21 +38,25 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
                                         <color key="value" red="0.81640243189999995" green="0.94059666450000001" blue="0.31162148379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="outlineWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SM4-zK-D72" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="68H-47-9K5"/>
-                            <constraint firstItem="SM4-zK-D72" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ca9-Zu-HxX"/>
+                            <constraint firstItem="Ub1-bN-Kc0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Tk9-B8-r8R"/>
+                            <constraint firstItem="Ub1-bN-Kc0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ivT-nB-qgr"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="progressBar" destination="SM4-zK-D72" id="FAg-Lv-RLu"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
