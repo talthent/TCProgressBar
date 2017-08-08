@@ -1,6 +1,6 @@
 TCProgressBar
 =======================
-The only progress bar you need.
+Simple and clean progress bar.
 
 ## Demo
 ![alt text](https://github.com/talthent/TCProgressBar/blob/master/screenshots/screenshot.png "TCProgressBar")
