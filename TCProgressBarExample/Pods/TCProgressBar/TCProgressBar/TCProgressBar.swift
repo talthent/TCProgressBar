@@ -21,12 +21,14 @@ import UIKit
     
     @IBInspectable open var spacing : CGFloat = 2 {
         didSet {
+            self.spacing = max(0, spacing)
             self.updateUI()
         }
     }
     
     @IBInspectable open var outlineWidth : CGFloat = 2 {
         didSet {
+            self.outlineWidth = max(0, outlineWidth)
             self.updateUI()
         }
     }
@@ -48,6 +50,7 @@ import UIKit
      */
     @IBInspectable open var value : CGFloat = 0 {
         didSet {
+            self.value = max(0, min(value, 1))
             self.updateUI()
         }
     }
